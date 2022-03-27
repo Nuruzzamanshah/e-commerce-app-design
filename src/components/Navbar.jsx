@@ -8,7 +8,7 @@ const Container = styled.div`
 //   background-color: black;  
 `
 const Wrapper = styled.div`
-    padding: 10px  20px;
+    padding: 0px  30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,7 +71,7 @@ const Navbar = () => {
                     <Language>EN</Language>
                     <SearchContainer>
                         <Input></Input>
-                        <Search></Search>
+                        <Search style={{color: 'green', fontSize: 17}}></Search>
                     </SearchContainer>
                 </Left>
                 <Center><Logo>N<Span>U</Span><Small>R</Small>U.</Logo></Center>
